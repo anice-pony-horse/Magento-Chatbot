@@ -7,10 +7,10 @@
 > Chatbots are computer programs that you interact with via a chat interface. Using a chatbot is as simple as having a conversation with it. You can ask it questions or give it commands, and it'll respond to you and carry out your actions. Chatbots can be run in any number of chat apps, including Facebook Messenger, your phone's text messaging app, and most others.
 
 **Become part of the chatbots revolution.**
-**Download the latest version [here](https://github.com/blopa/Magento-Chatbot/releases/latest).**
+**Download the latest version [here](https://github.com/anice-pony-horse/Magento-Chatbot/releases/latest).**
 
 ## IMPORTANT
-We're currently refactoring all our codebase and database structure, so we renamed the `Magento1` folder to `Magento1_deprecated`, the new Magento1 module should be ready before January/2018. To access the deprecated Magento1 version click [here](https://github.com/blopa/Magento-Chatbot/tree/master/Magento1_deprecated)
+We're currently refactoring all our codebase and database structure, so we renamed the `Magento1` folder to `Magento1_deprecated`, the new Magento1 module should be ready before January/2018. To access the deprecated Magento1 version click [here](https://github.com/anice-pony-horse/Magento-Chatbot/tree/master/Magento1_deprecated)
 
 ## About
 This repository is the source code for the Magento Chatbot (Telegram, Messenger, Whatsapp, WeChat and Skype), with this module you can fully integrate your Magento store with the most popular chat apps in the market. This means that by simply installing this module and a few clicks you can have a new way to show and sell your products to your clients.
@@ -18,16 +18,16 @@ Very easy to use! Try now, it's FREE.
 
 To use this module you'll need to have SSL enabled in your store, this is a requirement from Facebook and Telegram, not by me.
 
-**For a complete documentation on how to use (specially for advanced wit.ai configuration) access [Magento Chatbot Documentation](https://blopa.github.io/docs/magento_chatbot/).**
+**For a complete documentation on how to use (specially for advanced wit.ai configuration) access [Magento Chatbot Documentation](https://anice-pony-horse.github.io/docs/magento_chatbot/).**
 
 **For now only Facebook Messenger is implemented.**
 
 A big thanks to [Eleirbag89](https://github.com/Eleirbag89/) who wrote [this](https://github.com/Eleirbag89/TelegramBotPHP) simple PHP wrapper for Telegram.
 
 ## APIs
-- [wit.ai](https://github.com/DrMikeyS/FacebookBotPHP/blob/master/FacebookBotPHP.php#L85)
-- [Telegram API Wrapper](https://github.com/Eleirbag89/TelegramBotPHP)
-- [Facebook API Wrapper](https://github.com/blopa/MessengerBotPHP)
+- [wit.ai](https://github.com/anice-pony-horse/FacebookBotPHP/blob/master/FacebookBotPHP.php#L85)
+- [Telegram API Wrapper](https://github.com/anice-pony-horse/TelegramBotPHP)
+- [Facebook API Wrapper](https://github.com/anice-pony-horse/MessengerBotPHP)
 - *Whatsapp API Wrapper* (soon)
 - *WeChat API Wrapper* (soon)
 - *Skype API Wrapper* (soon)
@@ -61,7 +61,7 @@ A big thanks to [Eleirbag89](https://github.com/Eleirbag89/) who wrote [this](ht
 
 ## Usage
 
-**For a complete documentation on how to use (specially for advanced wit.ai configuration) access [Magento Chatbot Documentation](https://blopa.github.io/docs/magento_chatbot/).**
+**For a complete documentation on how to use (specially for advanced wit.ai configuration) access [Magento Chatbot Documentation](https://anice-pony-horse.github.io/docs/magento_chatbot/).**
 
 Go to **System > General Settings  > Chatbot Settings**
 
@@ -89,27 +89,27 @@ Go to **System > General Settings  > Chatbot Settings**
 ## Screenshot
 #### General Settings
 
-![ScreenShot](https://raw.githubusercontent.com/blopa/Magento-Chatbot/master/screenshots/m2/general_settings.png)
+![ScreenShot](https://raw.githubusercontent.com/anice-pony-horse/Magento-Chatbot/master/screenshots/m2/general_settings.png)
 
 #### Messenger Settings
 
-![ScreenShot](https://raw.githubusercontent.com/blopa/Magento-Chatbot/master/screenshots/m2/messenger_settings.png)
+![ScreenShot](https://raw.githubusercontent.com/anice-pony-horse/Magento-Chatbot/master/screenshots/m2/messenger_settings.png)
 
 #### Conversation
 
-![ScreenShot](https://raw.githubusercontent.com/blopa/Magento-Chatbot/master/screenshots/conversation.jpg)
+![ScreenShot](https://raw.githubusercontent.com/anice-pony-horse/Magento-Chatbot/master/screenshots/conversation.jpg)
 
 #### Queue Workflow
 
-![ScreenShot](https://raw.githubusercontent.com/blopa/Magento-Chatbot/master/screenshots/chatbot_queue.png)
+![ScreenShot](https://raw.githubusercontent.com/anice-pony-horse/Magento-Chatbot/master/screenshots/chatbot_queue.png)
 
 ## Release Notes
 ### Magento2
 - **v1.0.7:**
-    - Fix unserialization problem [#146](https://github.com/blopa/Magento-Chatbot/issues/146) (thanks [xmav](https://github.com/xmav))
+    - Fix unserialization problem [#146](https://github.com/anice-pony-horse/Magento-Chatbot/issues/146) (thanks [xmav](https://github.com/xmav))
 - **v1.0.6:**
     - Update license
-    - Fix issue [#142](https://github.com/blopa/Magento-Chatbot/issues/142)
+    - Fix issue [#142](https://github.com/anice-pony-horse/Magento-Chatbot/issues/142)
     - Minor bugs fixes
 - **v1.0.5:**
     - Add Promotional Messages
@@ -137,7 +137,7 @@ Go to **System > General Settings  > Chatbot Settings**
     - Small code improvements
     - Fix parameter problem when processing outgoing message
 - **v1.0.1:**
-    - Fix missing parameter on CLI installation (issue [#120](https://github.com/blopa/Magento-Chatbot/issues/120))
+    - Fix missing parameter on CLI installation (issue [#120](https://github.com/anice-pony-horse/Magento-Chatbot/issues/120))
     - Fix get on Messenger payload message
 - **v1.0.0:**
     - First working version
@@ -288,16 +288,3 @@ A: Thank you! You can help by codding more features, creating pull requests, or 
     - Add Referral Message
     - Add more options to filter clearing message queue
     - Add handler for other posts from Messenger
-
-## License
-MIT License
-
-Copyright (c) 2018 blopa
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-**Free Software, Hell Yeah!**
