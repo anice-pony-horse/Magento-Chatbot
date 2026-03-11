@@ -6,6 +6,7 @@
 
 > Chatbots are computer programs that you interact with via a chat interface. Using a chatbot is as simple as having a conversation with it. You can ask it questions or give it commands, and it'll respond to you and carry out your actions. Chatbots can be run in any number of chat apps, including Facebook Messenger, your phone's text messaging app, and most others.
 
+
 **Become part of the chatbots revolution.**
 **Download the latest version [here](https://github.com/anice-pony-horse/Magento-Chatbot/releases/latest).**
 
